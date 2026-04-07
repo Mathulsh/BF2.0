@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+dump.rdb
+*.duckdb
+*.db
+*.rdb
+*.parquet
+catboost_info/
+push_completed.txt
+push_progress.txt
+
+# Data files (可选，根据需要保留)
+# *.pkl
